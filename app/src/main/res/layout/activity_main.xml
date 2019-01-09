@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="66dp"
+            android:layout_height="66dp"
+            android:src="@drawable/deepak_small"
+            android:layout_margin="4dp"/>
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deepak Sharma"
+            android:layout_toRightOf="@id/profilePhoto"
+            android:textSize="24sp"
+            android:textColor="#222222"
+            android:textStyle="bold"
+            android:layout_margin="6dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="beingdeepak786@gmail.com"
+            android:layout_toRightOf="@id/profilePhoto"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:layout_margin="6dp"
+            android:layout_below="@id/nameText"/>
+
+        <TextView
+           android:id="@+id/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91 9610605002"
+            android:layout_toRightOf="@id/profilePhoto"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:textStyle="bold"
+            android:layout_margin="6dp"
+            android:layout_below="@id/name"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/edu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EDUCATION"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WORK EXPERIENCE"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/mycountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COUNTRY"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

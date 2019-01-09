@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Education"
+            android:layout_marginLeft="120dp"
+            android:textSize="20sp"
+            android:textColor="#f9f7f7"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:text="Master in Computer and Information Engineering"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#555555"
+        android:layout_marginLeft="10dp"
+        android:textSize="12sp"
+        android:text="SRM University, Chennai"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0e0101"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:text="Bachelor in Computer and Information Engineering"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#555555"
+        android:layout_marginLeft="10dp"
+        android:textSize="12sp"
+        android:text="SRM University, Chennai"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0e0101"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
